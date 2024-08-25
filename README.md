@@ -19,35 +19,35 @@ This script provides a terminal-based dashboard to monitor various system metric
 To display the complete dashboard with all metrics, run the script without any arguments:
 
 ```bash
-./dashboard.sh
+./monitoring.sh
 The dashboard will refresh every 2 seconds.
 
 Custom Dashboard
 To display a specific section of the dashboard, use one of the following arguments:
 
 CPU and Application Info:
-./dashboard.sh -cpu
+./monitoring.shh -cpu
 
 
 Displays CPU usage and the top 10 most used applications.
 
 Memory and Process Info:
-./dashboard.sh -memory
+./monitoring.shh -memory
 
 Shows memory usage and the top 5 processes by CPU and memory usage.
 
 Network Info:
-./dashboard.sh -network
+./monitoring.shh -network
 
 Provides network metrics including concurrent connections, packet drops, and network traffic.
 
 Disk Usage Info:
-./dashboard.sh -disk
+./monitoring.shh -disk
 
 Displays disk usage information.
 
 Service Status Info:
-./dashboard.sh -services
+./monitoring.shh -services
 
 Shows the status of essential services.
 
